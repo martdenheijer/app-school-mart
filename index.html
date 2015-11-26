@@ -1,10 +1,53 @@
-<!doctype html>
-	<html>
-		<head>
-			<meta charset="utf-8">
-			<title> Oefening</title>
-		</head>
-		<body>
-			<h1> hallooo</h1>
-		</body>
-	</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Billen app</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-touch.js"></script>
+</head>
+<body>
+
+	<div class="show page" id="page1">
+		<h1>Welkom Mart </h1>
+	</div>
+	<div class="hide page" id="page2">
+		<h1>Maak een foto</h1>
+	</div>
+	<div class="hide page" id="page3">
+		<h1>Hallo pagina 3</h1>
+	</div>
+
+<nav>
+	<ul>
+		<li><a href="#" id="btn1">page 1</a></li>
+		<li><a href="#" id="btn2">page 2</a></li>
+		<li><a href="#" id="btn3">page 3</a></li>
+	</ul>
+</nav>
+
+
+	<script>
+		$("#btn1").click(function(){
+		    $("#page1").show();
+		    $("#page2").hide();
+		    $("#page3").hide();
+		});
+
+		$("#btn2").click(function(){
+		    $("#page1").hide();
+		    $("#page2").show();
+		    $("#page3").hide();
+		});
+
+		$("#btn3").click(function(){
+		    $("#page1").hide();
+		    $("#page2").hide();
+		    $("#page3").show();
+		});
+	</script>
+
+	
+</body>
+</html>

@@ -1,0 +1,46 @@
+*{margin:0; padding:0;}
+.show{display:block;}
+.hide{display:none;}
+
+body{width:100%; min-height:100%;}
+
+.page{ height:90vh;}
+.page h1{text-align:center; color:white;}
+#page1{background-color:grey;}
+#page2{background-color:lightgrey;}
+#page3{background-color:red;}
+
+nav{
+	position:fixed; 
+	bottom:0; 
+	width:100%;
+}
+nav ul li{
+	list-style:none;  
+	display:inline; 
+	height:10vh;
+	background-color:whitesmoke; 
+	width:33.3vw; 
+	box-sizing:border-box; 
+	display:inline-block; 
+	float:left;
+	text-align:center;
+	border-top:solid 3px black;
+}
+
+nav ul li:first-child{border-right:solid 1.5px black;}
+nav ul li:last-child{border-left:solid 1.5px black;}
+
+nav ul li a{
+	line-height:10vh;
+	text-decoration:none;
+}
+
+.page{}
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+<widget
+	xmlns         = "http://www.w3.org/ns/widgets"
+	xmlns:gap     = "http://phonegap.com/ns/1.0"
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	id            = "nl.avans.aii.cmd.IconSplash"
+	version       = "1.0.02"
+	versionCode   = "100"
+>
+	<name>
+		Billen app
+	</name>
+	<description>
+		Mooie billen gezien? Deel het 
+	</description>
+	<author href="http://www.martdenheijer.nl" email="info@martdenheijer.nl">
+		Mart den Heijer
+	</author>
+
+<!--Zorg in elk geval voor de default icon en splash-->
+	<icon src="icon1.png" />	<!-- 128 x 128 -->
+	<splash src="splash.png" />	<!-- 320 x 480 -->
+
+	<icon src="icons/icon1.png" platform="android" qualifier="ldpi" />
+	<!-- <icon src="icons/icon0048.png" platform="android" qualifier="mdpi" /> -->
+	<!-- <icon src="icons/icon0072.png" platform="android" qualifier="hdpi" /> -->
+	<!-- <icon src="icons/icon0096.png" platform="android" qualifier="xhdpi" /> -->
+	<!-- <icon src="icons/icon0144.png" platform="android" qualifier="xxhdpi" /> -->
+	<!-- <icon src="icons/icon0192.png" platform="android" qualifier="xxxhdpi" /> -->
+	<!-- <icon src="icons/icon0029.png" platform="ios" width= "29" height= "29" /> -->
+	<!-- <icon src="icons/icon0040.png" platform="ios" width= "40" height= "40" /> -->
+	<!-- <icon src="icons/icon0048.png" platform="ios" width= "48" height= "48" /> -->
+	<!-- <icon src="icons/icon0050.png" platform="ios" width= "50" height= "50" /> -->
+	<!-- <icon src="icons/icon0057.png" platform="ios" width= "57" height= "57" /> -->
+	<!-- <icon src="icons/icon0058.png" platform="ios" width= "58" height= "58" /> -->
+	<!-- <icon src="icons/icon0060.png" platform="ios" width= "60" height= "60" />-->
+	<!-- <icon src="icons/icon0072.png" platform="ios" width= "72" height= "72" />-->
+	<!-- <icon src="icons/icon0076.png" platform="ios" width= "76" height= "76" />-->
+	<!-- <icon src="icons/icon0080.png" platform="ios" width= "80" height= "80" />-->
+	<!-- <icon src="icons/icon0100.png" platform="ios" width="100" height="100" />-->
+	<!-- <icon src="icons/icon0114.png" platform="ios" width="114" height="114" />-->
+	<!-- <icon src="icons/icon0120.png" platform="ios" width="120" height="120" />-->
+	<!-- <icon src="icons/icon0144.png" platform="ios" width="144" height="144" />-->
+	<!-- <icon src="icons/icon0152.png" platform="ios" width="152" height="152" />-->
+	<!-- <icon src="icons/icon0180.png" platform="ios" width="180" height="180" />-->
+	<!-- <icon src="icons/icon0048.png" platform="winphone" />-->
+	<!-- <icon src="icons/icon0173.png" platform="winphone" role="background" />-->
+
+	<splash src="screens/splash0200x0320.png" platform="android" qualifier="port-ldpi" />
+	<!-- <splash src="screens/splash0320x0480.png" platform="android" qualifier="port-mdpi" />  -->
+	<!-- <splash src="screens/splash0480x0800.png" platform="android" qualifier="port-hdpi" /> -->
+	<!-- <splash src="screens/splash0720x1280.png" platform="android" qualifier="port-xhdpi" /> -->
+	<!-- <splash src="screens/splash0960x1600.png" platform="android" qualifier="port-xxhdpi" /> -->
+	<!-- <splash src="screens/splash1440x2560.png" platform="android" qualifier="port-xxxhdpi" /> -->
+	<!-- <splash src="screens/splash0320x0200.png" platform="android" qualifier="land-ldpi" /> -->
+	<!-- <splash src="screens/splash0480x0320.png" platform="android" qualifier="land-mdpi" /> -->
+	<!-- <splash src="screens/splash0800x0480.png" platform="android" qualifier="land-hdpi" /> -->
+	<!-- <splash src="screens/splash1280x0720.png" platform="android" qualifier="land-xhdpi" /> -->
+	<!-- <splash src="screens/splash1600x0960.png" platform="android" qualifier="land-xxhdpi" /> -->
+	<!-- <splash src="screens/splash2560x1440.png" platform="android" qualifier="land-xxxhdpi" /> -->
+	<!-- <splash src="screens/splash0320x0480.png" platform="ios" width="320"  height="480"  /> -->
+	<!-- <splash src="screens/splash0640x0960.png" platform="ios" width="640"  height="960"  /> -->
+	<!-- <splash src="screens/splash0640x1136.png" platform="ios" width="640"  height="1136" /> -->
+	<!-- <splash src="screens/splash0750x1334.png" platform="ios" width="750"  height="1334" /> -->
+	<!-- <splash src="screens/splash0768x1024.png" platform="ios" width="768"  height="1024" /> -->
+	<!-- <splash src="screens/splash1242x2208.png" platform="ios" width="1242" height="2208" /> -->
+	<!-- <splash src="screens/splash1536x2048.png" platform="ios" width="1536" height="2048" /> -->
+	<!-- <splash src="screens/splash0480x0320.png" platform="ios" width="480"  height="320"  /> -->
+	<!-- <splash src="screens/splash0960x0640.png" platform="ios" width="960"  height="640"  /> -->
+	<!-- <splash src="screens/splash1136x0640.png" platform="ios" width="1136" height="640"  /> -->
+	<!-- <splash src="screens/splash1334x0750.png" platform="ios" width="1334" height="750"  /> -->
+	<!-- <splash src="screens/splash1024x0768.png" platform="ios" width="1024" height="768"  /> -->
+	<!-- <splash src="screens/splash2208x1242.png" platform="ios" width="2208" height="1242" /> -->
+	<!-- <splash src="screens/splash2048x1536.png" platform="ios" width="2048" height="1536" /> -->
+<!-- LET OP: Windows wil een jpg -->
+	<splash src="screens/splash0480x0800.jpg" platform="winphone" />
+
+</widget>
